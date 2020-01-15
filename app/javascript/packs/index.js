@@ -9,12 +9,9 @@ import Contact from "../components/Contact"
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Router>
-        <Navbar />
-        <Route path="/" component={App} />
-        <Route exact path="/about" exact render={() => <About />} />
-        <Route exact path="/contact" exact render={() => <Contact />} />
-    </Router>,
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
     document.body.appendChild(document.createElement('div')),
   )
 })
