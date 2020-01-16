@@ -12,3 +12,31 @@
   transition: 0.5s;
   transition-duration: 0.6s;
 }
+
+svg {
+  margin-top: 15px;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+a {
+  font-weight: bold;
+  transition: opacity 300ms ease;
+  display: inline-block;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.center {
+  width: 900px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -360px;
+  margin-top: -200px;
+  text-align: center;
+}
