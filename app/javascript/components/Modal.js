@@ -32,7 +32,7 @@ export default function About() {
 
   return (
     <div>
-      <button type="button" onClick={handleOpen} style={{cursor: 'pointer'}}>
+      <button type="button" onClick={handleOpen} style={{ cursor: 'pointer', border: 'none'}}>
         <i className="envelope icon"></i>
       </button>
       <Modal
@@ -49,8 +49,11 @@ export default function About() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">Transition modal</h2>
-            <p id="transition-modal-description">react-transition-group animates me.</p>
+            <h2 id="transition-modal-title">Je vous laisse trouver mon mail</h2>
+            <p id="transition-modal-description">N'hesitez pas je serai heureux d'échanger avec vous</p>
+            <div className="flex1">
+              <a href="mailto:a.viretti@free.fr" target="_blank"><i className="envelope icon"></i></a>
+            </div>
           </div>
         </Fade>
       </Modal>

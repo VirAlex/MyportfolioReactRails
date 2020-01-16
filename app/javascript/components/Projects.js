@@ -16,7 +16,9 @@ class Projects extends React.Component {
           </div>
         </h2>
           <Cards />
-          <ThreeCards />
+          <div>
+            <ThreeCards />
+          </div>
         <div className="flex1">
             <Button />
         </div>
