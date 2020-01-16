@@ -1,13 +1,22 @@
 $gray-base:     #999999;
-$brand-primary: #3498DB;
+$brand-primary: #4D4458;
 $outline-width: 0;
 $break-point: 500px;
 
 
 .section-header {
   color: $brand-primary;
-  font-weight: 400;
-  font-size: 1.4em;
+  font-weight: 600;
+  font-size: 2em;
+  font-family: 'Anton', sans-serif;
+}
+.steps-headerc {
+  color: $brand-primary;
+  font-weight: 600;
+  font-size: 2.6em;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin-top: 2px !important;
 }
 .steps-section {
   height: 75vh;
@@ -87,7 +96,7 @@ $break-point: 500px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border:solid #3498db;
+  border:solid #4D4458;
   border-width: thin;
 
   @media screen and (max-width: $break-point) {
@@ -117,5 +126,15 @@ $break-point: 500px;
 
 
 .wagonbrand {
-  color: #3498db !important;
+  color: #4D4458 !important;
+}
+
+.steps-timeline p,
+.steps-timeline h3
+{
+  color: #4D4458;
+}
+
+.steps-header {
+  color: black;
 }

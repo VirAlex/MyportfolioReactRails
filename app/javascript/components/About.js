@@ -11,10 +11,11 @@ class About extends React.Component {
   render() {
     return (
       <div className="aboutbackground">
+      <div className="divabout">
       <section id="Steps" className="steps-section">
 
-        <h2 className="steps-header">
-          My cursus
+        <h2 className="steps-headerc">
+          MY CURSUS
     </h2>
 
         <div className="steps-timeline">
@@ -52,10 +53,11 @@ Since 3 months I finished the intensive but highly rewarding training of the wag
 
         </div>
         <div className="flex1" stle={{alignItems: 'center'}}>
-            <a href="https://drive.google.com/open?id=1xS3DmDXSILqQrZT2Ij0BROdfb6Rlm1eQ" target="_blank"><i className="save outline icon" style={{fontSize: '20px', paddingTop: '20px'}}></i></a>
+              <a href="https://drive.google.com/open?id=1xS3DmDXSILqQrZT2Ij0BROdfb6Rlm1eQ" target="_blank"><i className="save outline icon" style={{ fontSize: '20px', paddingTop: '20px', color: '#F50E0F'}}></i></a>
             <h4 className="header">Click to download my CV</h4>
         </div>
   </section>
+      </div>
     <Footer />
   </div>
     )
