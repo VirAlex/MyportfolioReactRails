@@ -8,7 +8,7 @@ class Cards extends React.Component{
   render(){
     return(
       <div className="bigone">
-        <div className="containercards">
+        <div className="containercards2">
           <div className="box">
             <div className="imgBx">
               <img src={Img1} alt="vanneur"/>
