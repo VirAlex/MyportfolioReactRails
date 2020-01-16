@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  background-color: darkgrey;
+  height: 200px;
+}
+
+.flexfoot {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.flexfoot .icon {
+  font-size: 50px;
+}
+
+a {
+  color: black !important;
+  text-decoration: none;
+}
+

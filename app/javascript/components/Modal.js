@@ -32,8 +32,8 @@ export default function About() {
 
   return (
     <div>
-      <button type="button" onClick={handleOpen}>
-        react-transition-group
+      <button type="button" onClick={handleOpen} style={{cursor: 'pointer'}}>
+        <i className="envelope icon"></i>
       </button>
       <Modal
         aria-labelledby="transition-modal-title"

@@ -13,8 +13,9 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Home from './Home'
 import About from './About'
-import Contact from './Contact'
+
 import Projects from './Projects'
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -28,7 +29,7 @@ function TabPanel(props) {
       aria-labelledby={`scrollable-force-tab-${index}`}
       {...other}
     >
-      {value === index && <Box p={3}>{children}</Box>}
+      {value === index && <Box pt={1}>{children}</Box>}
     </Typography>
   );
 }
@@ -77,7 +78,7 @@ export default function ScrollableTabsButtonForce() {
           <Tab label="Home" icon={<HomeIcon />} {...a11yProps(0)} />
           <Tab label="Projects" icon={<DvrIcon />} {...a11yProps(1)} />
           <Tab label="About me" icon={<PermIdentityIcon />} {...a11yProps(2)} />
-          <Tab label="Contact" icon={<ContactPhoneIcon />} {...a11yProps(3)} />
+          {/* <Tab label="Contact" icon={<ContactPhoneIcon />} {...a11yProps(3)} /> */}
           {/* <Tab label="Item Five" icon={<ShoppingBasket />} {...a11yProps(4)} />
           <Tab label="Item Six" icon={<ThumbDown />} {...a11yProps(5)} />
           <Tab label="Item Seven" icon={<ThumbUp />} {...a11yProps(6)} /> */}
@@ -87,13 +88,15 @@ export default function ScrollableTabsButtonForce() {
         <Home />
       </TabPanel>
       <TabPanel value={value} index={1}>
+      <div>
         <Projects />
+        </div>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <About />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <Contact />
+
       </TabPanel>
       <TabPanel value={value} index={4}>
         Item Five
@@ -105,5 +108,6 @@ export default function ScrollableTabsButtonForce() {
         Item Seven
       </TabPanel>
     </div>
+
   );
 }

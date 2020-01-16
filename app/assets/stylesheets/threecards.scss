@@ -1,6 +1,7 @@
 .flex1 {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .box1 {
@@ -28,19 +29,19 @@
 .box1:nth-child(1):before,
 .box1:nth-child(1):after
 {
-  background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+  background: linear-gradient(235deg, #bdf2d5, #7ad9f5, #5d13e7);
 }
 
 .box1:nth-child(2):before,
 .box1:nth-child(2):after
 {
-  background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+  background: linear-gradient(235deg, #0f4c75, #3282b8, #bbe1fa);
 }
 
 .box1:nth-child(3):before,
 .box1:nth-child(3):after
 {
-  background: linear-gradient(235deg, #772aff, #010615, #2196F3);
+  background: linear-gradient(235deg, #6c7b95, #8bbabb, #c7f0db);
 }
 
 
@@ -72,3 +73,6 @@
   filter: blur(40px);
 }
 
+.contactez {
+  padding-bottom: 20px !important;
+}

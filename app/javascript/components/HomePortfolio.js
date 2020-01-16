@@ -7,6 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import About from './About'
+import Modal from './Modal'
 
 class SimpleCard extends React.Component{
   render() {
@@ -19,6 +20,10 @@ class SimpleCard extends React.Component{
           <h3 className="header" to="/about" >Alexandre Viretti </h3>
           <h4>Web developer full stack</h4>
           <p>Junior</p>
+          <div className="flex1" style={{ marginBottom: '5px' }}>
+            <Modal />
+            <h3 className="header contactez"> Contactez-moi </h3>
+          </div>
         </div>
       </div>
     )

@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     <BrowserRouter>
       <App />
+      <Footer />
     </BrowserRouter>,
     document.body.appendChild(document.createElement('div')),
   )
