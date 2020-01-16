@@ -22,7 +22,6 @@ class SimpleCard extends React.Component{
           <p>Junior</p>
           <div className="flex1" style={{ marginBottom: '5px' }}>
             <Modal />
-            <h3 className="header contactez"> Contactez-moi </h3>
           </div>
         </div>
       </div>

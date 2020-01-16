@@ -33,7 +33,7 @@ export default function About() {
   return (
     <div>
       <button type="button" onClick={handleOpen} style={{ cursor: 'pointer', border: 'none'}}>
-        <i className="envelope icon"></i>
+        <i className="envelope icon"></i><h3 className="header contactez" style={{ cursor: 'pointer' }}> Contact me </h3>
       </button>
       <Modal
         aria-labelledby="transition-modal-title"
@@ -49,8 +49,8 @@ export default function About() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">Je vous laisse trouver mon mail</h2>
-            <p id="transition-modal-description">N'hesitez pas je serai heureux d'échanger avec vous</p>
+            <h2 id="transition-modal-title">I let you find my email</h2>
+            <p id="transition-modal-description">Do not hesitate I will be happy to exchange with you</p>
             <div className="flex1">
               <a href="mailto:a.viretti@free.fr" target="_blank"><i className="envelope icon"></i></a>
             </div>
