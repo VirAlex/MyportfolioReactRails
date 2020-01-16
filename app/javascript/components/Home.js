@@ -25,7 +25,7 @@ class Home extends React.Component {
                 <div className="contentBx">
                   <div>
                     <h2>Ruby On Rails </h2>
-                    <p>Good knowledge ability to realize a complete application with payment modules for image hosting, ... also deployment. Coupled with databases such as Mysql or PostgreSql</p>
+                    <p>Knowledge ability to build a complete application with databases (MySQL or PostgreSQL) payment modules, image hosting, and full deployment</p>
                   </div>
                 </div>
               </div>
@@ -36,7 +36,7 @@ class Home extends React.Component {
                 <div className="contentBx">
                   <div>
                     <h2>ReactJS & React in Rails</h2>
-                    <p>Knowledge of React and its architectures capable of realizing a site with several NodeJS and ReactJS components, for more speed and ease I couple React to Rails</p>
+                    <p>Knowledge of React and its architectures capable of building a website with several NodeJS and ReactJS components. I can couple those with Ruby on rails for speed and ease</p>
                   </div>
                 </div>
               </div>
@@ -47,7 +47,7 @@ class Home extends React.Component {
                 <div className="contentBx">
                   <div>
                     <h2>JavaScript</h2>
-                    <p>Good knowledge of Javascript by WebPack and integration in Rails of libraries, on JS functions</p>
+                    <p>Good knowledge of Javascript with WebPack and integration of libraries in Rails for extend JS functions</p>
                   </div>
                 </div>
               </div>
