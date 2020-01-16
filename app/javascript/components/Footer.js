@@ -9,6 +9,9 @@ export default class Footer extends React.PureComponent {
           <a href="https://www.linkedin.com/in/alexandre-viretti-8b219568/" className="aicon" target="_blank"><i className="linkedin icon"></i></a>
           <a href="https://twitter.com/alexou3103" className="aicon" target="_blank"><i className="twitter icon"></i></a>
         </div>
+        <div className="flexfoot">
+          <h4 className="header">Alexandre Viretti<i class="copyright icon" style={{fontSize: '15px'}}></i></h4>
+        </div>
       </div>
     );
   }
