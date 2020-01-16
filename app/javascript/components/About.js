@@ -35,8 +35,8 @@ class About extends React.Component {
                 <a href="https://www.lewagon.com/fr" className="wagonbrand" target="_blank">Le Wagon coding camp</a>
         </h3>
             <p className="steps-description">
-              All elements are positioned realtive to the parent. No absolute positioning.
-        </p>
+              Nine weeks of really enriching intensive code with learning Ruby and Ruby on Rails technologies and working in equipped with verison tools to crown the whole presentation of our project during Demo Day
+          </p>
           </div>
 
           <div className="steps-three">

@@ -20,8 +20,6 @@ class Cards extends React.Component{
                 <p>PostgreSql</p>
                 <p>Devise authentication</p>
                 <p>Geocoder</p>
-                <p>PostgreSql</p>
-
               </div>
             </div>
           </div>
