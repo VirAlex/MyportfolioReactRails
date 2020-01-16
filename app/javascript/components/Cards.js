@@ -15,8 +15,13 @@ class Cards extends React.Component{
             </div>
             <div className="contentBx">
               <div>
-                <h2>Lorem ipsum dolor</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Technos</h2>
+                <p>Ruby on rails</p>
+                <p>PostgreSql</p>
+                <p>Devise authentication</p>
+                <p>Geocoder</p>
+                <p>PostgreSql</p>
+
               </div>
             </div>
           </div>
@@ -26,8 +31,13 @@ class Cards extends React.Component{
             </div>
             <div className="contentBx">
               <div>
-                <h2>Lorem ipsum dolor</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Technos</h2>
+                <p>Ruby on rails</p>
+                <p>JavaScript</p>
+                <p>StimulusJS</p>
+                <p>OmniAuth</p>
+                <p>Notification Push Web</p>
+                <p>PostgreSql</p>
               </div>
             </div>
           </div>
@@ -37,8 +47,9 @@ class Cards extends React.Component{
             </div>
             <div className="contentBx">
               <div>
-                <h2>Lorem ipsum dolor</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Technos</h2>
+                <p>Vanilla JS</p>
+                <p>Api Fetch</p>
               </div>
             </div>
           </div>
