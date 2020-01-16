@@ -10,7 +10,7 @@ import ruby from '../../assets/images/ruby.png'
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <div className="aboutbackground">
       <section id="Steps" className="steps-section">
 
         <h2 className="steps-header">

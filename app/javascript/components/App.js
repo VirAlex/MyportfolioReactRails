@@ -29,7 +29,7 @@ function TabPanel(props) {
       aria-labelledby={`scrollable-force-tab-${index}`}
       {...other}
     >
-      {value === index && <Box pt={1}>{children}</Box>}
+      {value === index && <Box pt={0}>{children}</Box>}
     </Typography>
   );
 }

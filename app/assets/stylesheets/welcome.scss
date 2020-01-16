@@ -7,6 +7,10 @@
   height: 100px !important;
 };
 
+#cardA {
+  margin-top: 10px;
+}
+
 #cardA:hover {
   opacity: 0.7;
   transition: 0.5s;
@@ -41,4 +45,10 @@ a {
 
 .envelope {
   font-size: 30px !important;
+}
+
+.aboutbackground {
+  background-image: url('https://images.unsplash.com/photo-1568438350562-2cae6d394ad0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  padding: 0 !important;
 }
